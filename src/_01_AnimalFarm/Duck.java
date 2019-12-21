@@ -10,7 +10,7 @@ public class Duck extends Animal {
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
-		
+		System.out.println(name + ": Quack");
 	}
 
 	@Override

@@ -10,13 +10,13 @@ public class Chicken extends Animal {
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
-		
+		System.out.println(name + ": Cluck");
 	}
 
 	@Override
 	public void eat() {
 		// TODO Auto-generated method stub
-		System.out.println(name + " is eating seed.");
+		System.out.println(name + " is eating birdseed.");
 	}
 
 }
